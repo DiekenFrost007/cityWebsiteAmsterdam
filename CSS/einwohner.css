@@ -105,3 +105,27 @@ td {
   background-color: #eef3fb;
   border-radius: 5px;
 }
+
+@media (max-width: 850px) {
+  #seite {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #kopf h1 {
+    font-size: 28px;
+  }
+
+  #nav li {
+    display: block;
+  }
+
+  #inhalt {
+    padding: 15px;
+  }
+
+  .zahl {
+    font-size: 22px;
+  }
+}
