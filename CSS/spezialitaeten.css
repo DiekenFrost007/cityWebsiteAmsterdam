@@ -123,3 +123,27 @@ td {
   font-style: italic;
   color: #ae1c28;
 }
+
+@media (max-width: 850px) {
+  #seite {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #kopf h1 {
+    font-size: 28px;
+  }
+
+  #nav li {
+    display: block;
+  }
+
+  #inhalt {
+    padding: 15px;
+  }
+
+  .kasten {
+    padding: 8px 10px;
+  }
+}
