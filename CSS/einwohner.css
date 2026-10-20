@@ -7,11 +7,11 @@ body {
 }
 
 #seite {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   background-color: #ffffff;
 }
-
 #kopf {
   background-color: #21468b;
   color: #ffffff;
