@@ -1,0 +1,175 @@
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #f3f5f8;
+  color: #1d1d1d;
+  margin: 0;
+}
+
+#seite {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#kopf {
+  background-color: #21468b;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+#kopf h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+#nav {
+  background-color: #ae1c28;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: antiquewhite;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+
+#nav a:hover {
+  background-color: #21468b;
+}
+
+#inhalt {
+  padding: 20px 30px;
+}
+
+h2 {
+  color: #ae1c28;
+  border-bottom: 2px solid #21468b;
+}
+
+h3 {
+  color: #21468b;
+}
+
+p {
+  line-height: 1.7;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #21468b;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+th {
+  background-color: #21468b;
+  color: #ffffff;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #d9dfe7;
+  padding: 8px;
+}
+
+#fuss {
+  background-color: #21468b;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.inhaltsverzeichnis {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #21468b;
+  border: 5px solid #ae1c28;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font: optional;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#d9dfe7;
+}
+
+.hinweis {
+  border-left: 5px solid #ae1c28;
+  background-color: #fff4f5;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+#demo {
+  max-width: 100%;
+  margin: 24px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+#demo .carousel-inner {
+  aspect-ratio: 16 / 9;
+  background-color: #21468b;
+}
+
+#demo .carousel-item {
+  height: 100%;
+}
+
+#demo .carousel-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#demo .carousel-control-prev,
+#demo .carousel-control-next {
+  width: 12%;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.35), transparent);
+}
+
+#demo .carousel-control-next {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.35), transparent);
+}
+
+#demo .carousel-indicators {
+  margin-bottom: 12px;
+}
+
+#demo .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border: 0;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  #demo {
+    border-radius: 8px;
+  }
+
+  #demo .carousel-indicators {
+    margin-bottom: 6px;
+  }
+}
